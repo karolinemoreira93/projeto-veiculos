@@ -37,4 +37,4 @@ streamlit run app.py
 ```
 
 ## Aplicação online
-O link da aplicação publicada no Render será adicionado aqui após a publicação.
+https://projeto-veiculos-u2un.onrender.com/
