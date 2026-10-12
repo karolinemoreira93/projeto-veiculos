@@ -1,10 +1,12 @@
-# projeto-veiculos
-Análise exploratória de dados de anúncios de carros
-
 # Projeto de Análise de Anúncios de Veículos
 
 ## Descrição
 Este projeto apresenta uma análise exploratória de anúncios de veículos usados. Foi desenvolvida uma aplicação web interativa para explorar os preços dos veículos e a relação entre preço e quilometragem.
+
+## Aplicação online
+Acede à aplicação através do link:
+
+**https://projeto-veiculos-u2un.onrender.com/**
 
 ## Tecnologias utilizadas
 - Python
@@ -19,22 +21,20 @@ Este projeto apresenta uma análise exploratória de anúncios de veículos usad
 ## Arquivos do projeto
 - `app.py`: código da aplicação web.
 - `vehicles_us.csv`: conjunto de dados utilizado.
+- `vehicles_us_clean.csv`: conjunto de dados após o tratamento dos valores em falta.
 - `requirements.txt`: bibliotecas necessárias para executar a aplicação.
 - `notebooks/EDA.ipynb`: notebook de análise exploratória.
 - `.streamlit/config.toml`: configurações do Streamlit.
 
 ## Como executar localmente
-Instale as dependências com:
+Instala as dependências com:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Depois, execute:
+Depois, executa:
 
 ```bash
 streamlit run app.py
 ```
-
-## Aplicação online
-https://projeto-veiculos-u2un.onrender.com/
